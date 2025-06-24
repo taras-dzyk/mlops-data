@@ -10,8 +10,8 @@ stages:
       nfiles: 3
     - path: scripts/copy_labeled_to_dataset.py
       hash: md5
-      md5: 4e6829e5e4447ddb3946533f49d1f51d
-      size: 2155
+      md5: a79752661b83c60fe76668516fc9d4db
+      size: 1733
     outs:
     - path: dataset
       hash: md5
