@@ -5,9 +5,9 @@ stages:
     deps:
     - path: ../data-labeled
       hash: md5
-      md5: 8db8e92629ab551d33e8cc84181bf2c1.dir
-      size: 8992
-      nfiles: 3
+      md5: 2a3255d90b9e4c6a1aa3eb5905ae51f9.dir
+      size: 10414
+      nfiles: 4
     - path: scripts/copy_labeled_to_dataset.py
       hash: md5
       md5: a79752661b83c60fe76668516fc9d4db
@@ -15,6 +15,6 @@ stages:
     outs:
     - path: dataset
       hash: md5
-      md5: 2c2759577f413545e7b2f5d4242831fa.dir
-      size: 29014
-      nfiles: 2
+      md5: 690a200b0029e211a4edfe4f667bf692.dir
+      size: 38729
+      nfiles: 3
