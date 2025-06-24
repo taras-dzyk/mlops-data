@@ -1,0 +1,8 @@
+stages:
+  copy-labeled:
+    cmd: python3 scripts/copy_labeled_to_dataset.py
+    deps:
+      - ../data-labeled
+      - scripts/copy_labeled_to_dataset.py
+    outs:
+      - dataset

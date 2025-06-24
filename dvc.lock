@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  copy-labeled:
+    cmd: python3 scripts/copy_labeled_to_dataset.py
+    deps:
+    - path: ../data-labeled
+      hash: md5
+      md5: 8db8e92629ab551d33e8cc84181bf2c1.dir
+      size: 8992
+      nfiles: 3
+    - path: scripts/copy_labeled_to_dataset.py
+      hash: md5
+      md5: 4e6829e5e4447ddb3946533f49d1f51d
+      size: 2155
+    outs:
+    - path: dataset
+      hash: md5
+      md5: 2c2759577f413545e7b2f5d4242831fa.dir
+      size: 29014
+      nfiles: 2
